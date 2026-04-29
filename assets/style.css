@@ -1,0 +1,20 @@
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background: #0073aa;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
