@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Formulário Simples GPT
  * Description: Um formulário básico criado com ajuda do GPT
+ * Version: 1.0
  */
-
 if (!defined('ABSPATH')) exit;
 
 function fs_mostrar_formulario() {
