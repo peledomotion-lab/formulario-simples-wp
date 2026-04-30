@@ -37,5 +37,11 @@ function fs_mostrar_formulario() {
 
     return ob_get_clean();
 }
-
+function fs_carregar_estilos() {
+    wp_enqueue_style(
+        'fs-estilo',
+        plugin_dir_url(__FILE__) . 'assets/style.css'
+    );
+}
+add_action('wp_enqueue_scripts', 'fs_carregar_estilos');
 add_shortcode('formulario_simples', 'fs_mostrar_formulario');
